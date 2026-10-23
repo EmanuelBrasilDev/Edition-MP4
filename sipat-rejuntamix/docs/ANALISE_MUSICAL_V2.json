@@ -1,0 +1,132 @@
+{
+  "catalog_bpm": 120,
+  "onset_interval_median": 0.4992290249433111,
+  "energy_8s": [
+    {
+      "source_start": 48,
+      "rms_db": -14.21
+    },
+    {
+      "source_start": 56,
+      "rms_db": -14.48
+    },
+    {
+      "source_start": 64,
+      "rms_db": -14.06
+    },
+    {
+      "source_start": 72,
+      "rms_db": -14.65
+    },
+    {
+      "source_start": 80,
+      "rms_db": -13.33
+    },
+    {
+      "source_start": 88,
+      "rms_db": -14.08
+    },
+    {
+      "source_start": 96,
+      "rms_db": -13.46
+    },
+    {
+      "source_start": 104,
+      "rms_db": -13.98
+    }
+  ],
+  "cuts": [
+    {
+      "shot": "01_chegada",
+      "timeline_cut": 23.7,
+      "music_source_time": 48.033333,
+      "nearest_attack": 48.03047619047619,
+      "error_ms": 2.86
+    },
+    {
+      "shot": "02_participacao",
+      "timeline_cut": 27.7,
+      "music_source_time": 52.033333,
+      "nearest_attack": 52.024308390022675,
+      "error_ms": 9.02
+    },
+    {
+      "shot": "03_palestrante",
+      "timeline_cut": 31.7,
+      "music_source_time": 56.033333,
+      "nearest_attack": 56.018140589569164,
+      "error_ms": 15.19
+    },
+    {
+      "shot": "04_gesto",
+      "timeline_cut": 35.7,
+      "music_source_time": 60.033333,
+      "nearest_attack": 60.02358276643991,
+      "error_ms": 9.75
+    },
+    {
+      "shot": "05_plano_geral",
+      "timeline_cut": 39.7,
+      "music_source_time": 64.033333,
+      "nearest_attack": 64.02902494331066,
+      "error_ms": 4.31
+    },
+    {
+      "shot": "06_outro_ambiente",
+      "timeline_cut": 45.7,
+      "music_source_time": 70.033333,
+      "nearest_attack": 70.0197732426304,
+      "error_ms": 13.56
+    },
+    {
+      "shot": "07_publico",
+      "timeline_cut": 47.7,
+      "music_source_time": 72.033333,
+      "nearest_attack": 72.02829931972789,
+      "error_ms": 5.03
+    },
+    {
+      "shot": "08_aprendizado",
+      "timeline_cut": 49.7,
+      "music_source_time": 74.033333,
+      "nearest_attack": 74.02521541950114,
+      "error_ms": 8.12
+    },
+    {
+      "shot": "09_reacao",
+      "timeline_cut": 55.7,
+      "music_source_time": 80.033333,
+      "nearest_attack": 80.02757369614513,
+      "error_ms": 5.76
+    },
+    {
+      "shot": "10_palestra",
+      "timeline_cut": 57.7,
+      "music_source_time": 82.033333,
+      "nearest_attack": 82.02448979591837,
+      "error_ms": 8.84
+    },
+    {
+      "shot": "11_conjunto",
+      "timeline_cut": 61.7,
+      "music_source_time": 86.033333,
+      "nearest_attack": 86.02993197278911,
+      "error_ms": 3.4
+    },
+    {
+      "shot": "12_registros",
+      "timeline_cut": 69.7,
+      "music_source_time": 94.033333,
+      "nearest_attack": 94.02920634920635,
+      "error_ms": 4.13
+    },
+    {
+      "shot": "13_equipe",
+      "timeline_cut": 73.7,
+      "music_source_time": 98.033333,
+      "nearest_attack": 98.02303854875284,
+      "error_ms": 10.29
+    }
+  ],
+  "method": "Fluxo espectral e energia RMS; não equivale a audição humana."
+}

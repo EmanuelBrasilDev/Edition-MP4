@@ -1,8 +1,12 @@
 # SIPAT — RejuntaMix: ambiente de edição
 
-Ambiente preparado para uma futura retrospectiva institucional. Esta etapa
-contém **somente testes técnicos sintéticos**, sem edição final, logomarca
-inventada ou arquivos institucionais baixados.
+A reedição cinematográfica v2 está documentada em [docs/CINEMATIC_V2.md](docs/CINEMATIC_V2.md),
+com timeline editável, trilha licenciada e comandos de renderização.
+As instruções abaixo registram a preparação técnica inicial.
+
+Na preparação inicial, foram usados somente testes técnicos sintéticos.
+As edições posteriores usam os vídeos enviados pelo usuário; a v2 tem trilha
+licenciada e preserva os originais e a primeira edição.
 
 ## Ferramentas e instalação
 

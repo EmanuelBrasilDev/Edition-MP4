@@ -1,0 +1,49 @@
+{
+  "output": "exports/sipat-rejuntamix-cinematic-v2.mp4",
+  "sha256": "93b90de9dcd2388bfd4cede2cde8e52dcebf5a1434e595b9b75c22a969177490",
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "pix_fmt": "yuv420p",
+        "r_frame_rate": "30/1",
+        "duration": "79.700000",
+        "nb_frames": "2391"
+      },
+      {
+        "codec_name": "aac",
+        "sample_rate": "48000",
+        "channels": 2,
+        "r_frame_rate": "0/0",
+        "duration": "79.700000",
+        "nb_frames": "3737"
+      }
+    ],
+    "format": {
+      "duration": "79.700000",
+      "size": "35649819"
+    }
+  },
+  "audio": {
+    "introducao": {
+      "correlacao": 0.9997543055308122,
+      "erro_relativo_codificacao_AAC": 0.022298196330666542
+    },
+    "somente_musica": {
+      "correlacao": 0.9999264511021593,
+      "erro_relativo_codificacao_AAC": 0.012178432196378708
+    },
+    "voice_samples": 1137600,
+    "music_samples": 2688000,
+    "resultado": "Faixa final corresponde à voz tratada até 23,70 s e exclusivamente à música depois; resíduos compatíveis com codificação AAC."
+  },
+  "loudness_LUFS": "-16.82",
+  "true_peak_dBTP": "-1.80",
+  "decode_integral": "OK",
+  "original_novo_e_v1_preservados": true,
+  "review": "Amostras, prévia completa revisada e quadros do render final; sem alegação de audição humana integral."
+}
