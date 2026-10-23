@@ -1,0 +1,12 @@
+{
+  "fps": 30,
+  "crf": 18,
+  "audioBitrate": "192k",
+  "audioSampleRate": 48000,
+  "threads": 2,
+  "formats": {
+    "16:9": {"width": 1920, "height": 1080},
+    "9:16": {"width": 1080, "height": 1920}
+  },
+  "testSeconds": 2
+}
