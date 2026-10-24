@@ -1,0 +1,36 @@
+{
+  "probe": {
+    "programs": [],
+    "stream_groups": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "width": 720,
+        "height": 1280,
+        "r_frame_rate": "30/1",
+        "duration": "79.200000",
+        "nb_frames": "2376"
+      },
+      {
+        "codec_name": "aac",
+        "r_frame_rate": "0/0",
+        "duration": "79.200000",
+        "nb_frames": "3714"
+      }
+    ],
+    "format": {
+      "duration": "79.200000",
+      "size": "35384421"
+    }
+  },
+  "audio_correlation": 0.999887585438426,
+  "voice_samples": 1113600,
+  "music_entry": 23.2,
+  "removed_interval": [
+    7.6,
+    8.1
+  ],
+  "original_v2_unchanged": true,
+  "decode": "OK",
+  "sha256": "2e46dcddcdaacd99a94dde1a4fe1df811dbbd3a7cd668e94839d1dd72ba39787"
+}

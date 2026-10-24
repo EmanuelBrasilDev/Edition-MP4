@@ -186,7 +186,7 @@ def join(cfg,shots,paths,audio,width,titles,out,seek=None,length=None):
         f'[{gi}:v]scale={width}:{h},format=rgba,split=2[gt0][gt1]',
         '[gt0]fade=t=in:st=0.4:d=0.35:alpha=1,fade=t=out:st=4.3:d=0.5:alpha=1[ga]',
         f'[gt1]fade=t=in:st={middle}:d=0.35:alpha=1,fade=t=out:st={middle+4.2}:d=0.5:alpha=1[gb]',
-        f'[{gi+1}:v]scale={width}:{h},format=rgba,fade=t=in:st=23.7:d=0.4:alpha=1,fade=t=out:st=27.05:d=0.4:alpha=1[gc]',
+        f'[{gi+1}:v]scale={width}:{h},format=rgba,fade=t=in:st={cfg["intro_end"]}:d=0.4:alpha=1,fade=t=out:st={cfg["intro_end"]+3.35}:d=0.4:alpha=1[gc]',
         f'[{current}][ga]overlay=shortest=1[shade1]',
         '[shade1][gb]overlay=shortest=1[shade2]',
         '[shade2][gc]overlay=shortest=1[shaded]',
